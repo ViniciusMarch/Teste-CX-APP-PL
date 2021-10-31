@@ -4,3 +4,42 @@
 html {
   overflow-y: auto;
 }
+
+h2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#form {
+  min-height: 80px;
+}
+
+#form div{
+  display: flex;
+}
+
+#form input {
+  flex: 1;
+  background: #efefef;
+  padding: 2px 4px; 
+  border: 0;
+}
+
+#form button {
+  background: #efefef;
+  padding: 2px 8px;
+  border: 0;
+  margin: 0 8px;
+}
+
+#form span {
+  color: #ff4242;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+hr {
+  margin-bottom: 8px;
+  color: #efefef;
+}
